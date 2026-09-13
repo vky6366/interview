@@ -1,0 +1,130 @@
+#include <iostream>
+#include <stdexcept>
+
+// Template class for a reusable Linked List
+template <typename T>
+class LinkedList {
+private:
+    // Nested private Node structure to protect internal layout
+    struct Node {
+        T data;
+        Node* next;
+        
+        Node(const T& value) : data(value), next(nullptr) {}
+    };
+
+    Node* head; // Pointer to the first node
+    Node* tail; // Pointer to the last node for O(1) appending
+
+public:
+    // 1. Constructor
+    LinkedList() : head(nullptr), tail(nullptr) {}
+
+    // 2. Destructor (Prevents memory leaks)
+    ~LinkedList() {
+        clear();
+    }
+
+    // 3. Insert at the front (Head) - O(1)
+    void insertFront(const T& value) {
+        Node* newNode = new Node(value);
+        newNode->next = head;
+        head = newNode;
+        if (tail == nullptr) {
+            tail = head; // If list was empty, head is also tail
+        }
+    }
+
+    // 4. Insert at the back (Tail) - O(1)
+    void insertBack(const T& value) {
+        Node* newNode = new Node(value);
+        if (head == nullptr) {
+            head = tail = newNode;
+            return;
+        }
+        tail->next = newNode;
+        tail = newNode;
+    }
+
+    // 5. Delete from the front - O(1)
+    void deleteFront() {
+        if (head == nullptr) {
+            throw std::underflow_error("List is empty");
+        }
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        if (head == nullptr) {
+            tail = nullptr; // If list became empty
+        }
+    }
+
+    // 6. Clear entire list - O(N)
+    void clear() {
+        Node* current = head;
+        while (current != nullptr) {
+            Node* nextNode = current->next;
+            delete current;
+            current = nextNode;
+        }
+        head = tail = nullptr;
+    }
+
+    // 7. Display the list contents - O(N)
+    void display() const {
+        Node* current = head;
+        while (current != nullptr) {
+            std::cout << current->data << " -> ";
+            current = current->next;
+        }
+        std::cout << "nullptr" << std::endl;
+    }
+
+    void reverse(){
+        Node* next = nullptr;
+        Node* curr = head;
+        Node* prev = nullptr;
+        while(curr!=nullptr){
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
+    void middle_list(){
+        Node* slow = head;
+        Node* fast = head;
+
+        while(fast!=nullptr && fast->next!=nullptr){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        std::cout << "Middle element: " << slow->data << std::endl;
+    }
+
+    bool ispalindrome(){
+        if(head==nullptr || head->next==nullptr){
+            return true;
+        }
+
+        stack<T> s;
+        Node* temp = head;
+
+        while(temp!=nullptr && temp->next!=nullptr){
+            s.push(temp->data);
+            temp=temp->next;
+        }
+
+        temp = head;
+        while(temp!=nullptr && temp->next!=nullptr){
+            if(temp->data!=s.top()){
+                return false;
+            }
+            s.pop();
+        }
+        return true;
+    }
+
+};
