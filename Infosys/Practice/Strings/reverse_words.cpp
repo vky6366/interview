@@ -16,7 +16,7 @@ string reverse_word(string s){
             word += s[i];
             i++;
         }
-        reverse(word.begin(),word.end());
+        reverse(word.begin(), word.end());
         if(word.length()>0){
             ans+=word;
             ans+=" ";

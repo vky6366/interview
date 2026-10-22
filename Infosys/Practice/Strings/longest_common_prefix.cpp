@@ -12,7 +12,7 @@ string iscommon(vector<string> s){
     string start = s[0];
     string end = s[n-1];
     string ans = "";
-    for(int i =0; i<start.length();i++){
+    for(int i =0; i<start.length(); i++){
         if(start[i]==end[i]){
             ans+=start[i];
         }

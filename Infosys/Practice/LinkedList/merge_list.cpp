@@ -94,7 +94,7 @@ public:
     }
     void mergelist(LinkedList<T>& head1, LinkedList<T>& head2){
         if(head1.data == NULL || head2.data == NULL){
-            return head1.data = NULL ? head2 : head1;;
+            return head1.data = NULL ? head2 : head1;
         }
 
         if(head1.data < head2.data){

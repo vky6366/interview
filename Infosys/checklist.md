@@ -44,7 +44,7 @@
 
 * [x] Merge Sort
 * [x] Quick Sort
-* [ ] Sorting complexity
+* [x] Sorting complexity
 * [x] Merge Intervals
 * [x] Insert Interval
 * [ ] Meeting Rooms
@@ -89,23 +89,23 @@
 
 ### Graphs
 
-* [ ] Graph representation
-* [ ] Adjacency Matrix
-* [ ] Adjacency List
-* [ ] BFS
-* [ ] DFS
-* [ ] Number of Islands
+* [x] Graph representation
+* [x] Adjacency Matrix
+* [x] Adjacency List
+* [x] BFS
+* [x] DFS
+* [x] Number of Islands
 * [ ] Flood Fill
 * [ ] Connected Components
-* [ ] Cycle Detection
+* [x] Cycle Detection
 * [ ] Topological Sort
 * [ ] Course Schedule
 * [ ] Basic shortest-path concepts
 
 ### Recursion & Backtracking
 
-* [ ] Recursion fundamentals
-* [ ] Fibonacci
+* [x] Recursion fundamentals
+* [x] Fibonacci
 * [ ] Climbing Stairs
 * [ ] Subsets
 * [ ] Permutations
@@ -127,13 +127,13 @@
 
 ### Complexity
 
-* [ ] Big-O notation
-* [ ] Time complexity
-* [ ] Space complexity
-* [ ] O(1), O(log n), O(n), O(n log n), O(n²)
-* [ ] Analyze recursive complexity
-* [ ] Choose approach based on constraints
-* [ ] Explain brute force → optimized solution
+* [x] Big-O notation
+* [x] Time complexity
+* [x] Space complexity
+* [x] O(1), O(log n), O(n), O(n log n), O(n²)
+* [x] Analyze recursive complexity
+* [x] Choose approach based on constraints
+* [x] Explain brute force → optimized solution
 
 ---
 
@@ -141,24 +141,24 @@
 
 ### C
 
-* [ ] Data types
-* [ ] Operators
-* [ ] Arrays
-* [ ] Strings
-* [ ] Functions
-* [ ] Recursion
-* [ ] Pointers
-* [ ] Pointer arithmetic
-* [ ] Arrays vs pointers
-* [ ] Structures
+* [x] Data types
+* [x] Operators
+* [x] Arrays
+* [x] Strings
+* [x] Functions
+* [x] Recursion
+* [x] Pointers
+* [x] Pointer arithmetic
+* [x] Arrays vs pointers
+* [x] Structures
 * [x] Dynamic memory allocation
-* [ ] malloc / calloc / realloc / free
+* [x] malloc / calloc / realloc / free
 * [x] Stack vs Heap
-* [ ] static
-* [ ] const
+* [x] static
+* [x] const
 * [x] Memory leaks
 * [x] Dangling pointers
-* [ ] NULL pointers
+* [x] NULL pointers
 * [ ] Preprocessor / macros
 
 ### C++
@@ -202,10 +202,10 @@
 # 🔴 3. C++ STL
 
 * [x] vector
-* [ ] string
+* [x] string
 * [x] pair
 * [x] lists
-* [ ] array
+* [x] array
 * [x] map
 * [x] unordered_map
 * [x] set
@@ -231,13 +231,13 @@
 
 ### Fundamentals
 
-* [ ] DBMS vs RDBMS
-* [ ] Tables
-* [ ] Primary Key
-* [ ] Foreign Key
-* [ ] Candidate Key
+* [x] DBMS vs RDBMS
+* [x] Tables
+* [x] Primary Key
+* [x] Foreign Key
+* [x] Candidate Key
 * [ ] Composite Key
-* [ ] Constraints
+* [x] Constraints
 * [ ] Normalization
 * [ ] 1NF
 * [ ] 2NF
@@ -257,12 +257,12 @@
 
 ### SQL
 
-* [ ] SELECT
-* [ ] WHERE
-* [ ] DISTINCT
-* [ ] ORDER BY
-* [ ] GROUP BY
-* [ ] HAVING
+* [x] SELECT
+* [x] WHERE
+* [x] DISTINCT
+* [x] ORDER BY
+* [x] GROUP BY
+* [x] HAVING
 * [ ] Aggregate functions
 * [ ] INNER JOIN
 * [ ] LEFT JOIN
@@ -317,27 +317,27 @@
 
 # 🟠 6. Computer Networks
 
-* [ ] OSI Model
-* [ ] TCP/IP Model
+* [x] OSI Model
+* [x] TCP/IP Model
 * [x] TCP vs UDP
 * [x] IP Address
-* [ ] IPv4 vs IPv6
-* [ ] MAC Address
-* [ ] ARP
+* [x] IPv4 vs IPv6
+* [x] MAC Address
+* [x] ARP
 * [x] DNS
-* [ ] DHCP
+* [x] DHCP
 * [x] HTTP
-* [ ] HTTPS
+* [x] HTTPS
 * [x] HTTP Methods
-* [ ] HTTP Status Codes
-* [ ] Cookies
-* [ ] Sessions
-* [ ] Ports
-* [ ] Router vs Switch
-* [ ] TCP 3-Way Handshake
-* [ ] TCP Flow Control
-* [ ] TCP Congestion Control
-* [ ] TLS basics
+* [x] HTTP Status Codes
+* [x] Cookies
+* [x] Sessions
+* [x] Ports
+* [x] Router vs Switch
+* [x] TCP 3-Way Handshake
+* [x] TCP Flow Control
+* [x] TCP Congestion Control
+* [x] TLS basics
 * [x] What happens when you type a URL?
 
 ---
@@ -346,59 +346,59 @@
 
 ### Fundamentals
 
-* [ ] Scalability
-* [ ] Availability
-* [ ] Reliability
-* [ ] Latency
-* [ ] Throughput
-* [ ] Bottlenecks
-* [ ] Horizontal vs Vertical Scaling
-* [ ] Stateless vs Stateful systems
+* [x] Scalability
+* [x] Availability
+* [x] Reliability
+* [x] Latency
+* [x] Throughput
+* [x] Bottlenecks
+* [x] Horizontal vs Vertical Scaling
+* [x] Stateless vs Stateful systems
 
 ### Architecture
 
 * [x] Client–Server Architecture
 * [x] Load Balancer
-* [ ] Application Server
-* [ ] Database
-* [ ] Cache
-* [ ] Message Queue
+* [x] Application Server
+* [x] Database
+* [x] Cache
+* [x] Message Queue
 * [x] CDN
 * [x] API Gateway
-* [ ] Microservices basics
-* [ ] Monolith vs Microservices
+* [x] Microservices basics
+* [x] Monolith vs Microservices
 
 ### Databases
 
-* [ ] SQL vs NoSQL
-* [ ] Database indexing
-* [ ] Replication
-* [ ] Sharding
-* [ ] Partitioning
-* [ ] Read replicas
-* [ ] CAP theorem — basic
-* [ ] Consistency vs Availability
+* [x] SQL vs NoSQL
+* [x] Database indexing
+* [x] Replication
+* [x] Sharding
+* [x] Partitioning
+* [x] Read replicas
+* [x] CAP theorem — basic
+* [x] Consistency vs Availability
 
 ### Caching
 
-* [ ] Why caching?
-* [ ] Cache-aside
-* [ ] Cache invalidation
-* [ ] Redis basics
-* [ ] Cache eviction concepts
+* [x] Why caching?
+* [x] Cache-aside
+* [x] Cache invalidation
+* [x] Redis basics
+* [x] Cache eviction concepts
 
 ### APIs
 
 * [x] REST APIs
 * [x] HTTP methods
-* [ ] Status codes
-* [ ] Authentication vs Authorization
-* [ ] JWT basics
-* [ ] Rate limiting
+* [x] Status codes
+* [x] Authentication vs Authorization
+* [x] JWT basics
+* [x] Rate limiting
 
 ### Practice Designs
 
-* [ ] URL Shortener
+* [x] URL Shortener
 * [ ] Chat/Messaging System
 * [ ] Social Media Feed
 * [ ] E-commerce System
@@ -407,14 +407,14 @@
 
 ### System Design Interview Method
 
-* [ ] Clarify requirements
-* [ ] Functional requirements
-* [ ] Non-functional requirements
-* [ ] Estimate scale
-* [ ] Design high-level architecture
-* [ ] Identify bottlenecks
-* [ ] Discuss trade-offs
-* [ ] Explain scaling strategy
+* [x] Clarify requirements
+* [x] Functional requirements
+* [x] Non-functional requirements
+* [x] Estimate scale
+* [x] Design high-level architecture
+* [x] Identify bottlenecks
+* [x] Discuss trade-offs
+* [x] Explain scaling strategy
 
 ---
 
@@ -494,7 +494,7 @@ For EVERY project:
 * [ ] Handle "Why did you choose this approach?"
 * [ ] Handle "Can you optimize it?"
 * [ ] Handle "What if input is 10× larger?"
-* [ ] Practice rapid-fire CS fundamentals
+* [x] Practice rapid-fire CS fundamentals
 * [ ] Practice HR questions
 * [ ] Full mock technical interview
 * [ ] Full mock HR interview
@@ -508,18 +508,18 @@ Before the interview, I should be able to:
 * [ ] Solve common Easy DSA problems comfortably
 * [ ] Solve common Medium DSA problems with reasonable confidence
 * [ ] Recognize common DSA patterns
-* [ ] Explain brute force → optimized approach
-* [ ] Analyze time and space complexity
-* [ ] Code comfortably in C++
-* [ ] Use STL without constantly looking up syntax
-* [ ] Explain OOP clearly with examples
-* [ ] Write common SQL queries
-* [ ] Explain DBMS fundamentals
-* [ ] Explain OS fundamentals
-* [ ] Explain networking fundamentals
-* [ ] Design a basic scalable system
+* [x] Explain brute force → optimized approach
+* [x] Analyze time and space complexity
+* [x] Code comfortably in C++
+* [x] Use STL without constantly looking up syntax
+* [x] Explain OOP clearly with examples
+* [x] Write common SQL queries
+* [x] Explain DBMS fundamentals
+* [x] Explain OS fundamentals
+* [x] Explain networking fundamentals
+* [x] Design a basic scalable system
 * [ ] Explain every line on my resume
 * [ ] Defend every technology/project decision
 * [ ] Give a strong self-introduction
-* [ ] Handle technical follow-up questions
+* [x] Handle technical follow-up questions
 * [ ] Complete at least 2–3 mock interviews

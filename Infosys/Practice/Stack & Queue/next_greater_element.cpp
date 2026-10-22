@@ -24,4 +24,5 @@ vector<int> nextGreater(vector<int>& nums){
         }
         st.push(nums[i]);
     }
+    return res;
 }
